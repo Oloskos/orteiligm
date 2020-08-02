@@ -1,0 +1,13 @@
+Let's make a game!
+	name:Clicc
+
+Resources
+	*credit|credits
+		name:Credit
+		desc:The main game currency.
+
+Buttons
+	*brbutton
+		name:Big Red Button
+		desc:Click me to get some Credits!
+`		on click:yield 1 credit
